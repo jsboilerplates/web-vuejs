@@ -1,6 +1,6 @@
 import Vuex from 'vuex'
 import { shallow, createLocalVue } from '@vue/test-utils'
-import MockStore from '../config/store'
+import OriginStore from '@/store'
 import HomePage from '@/pages/HomePage'
 
 const localVue = createLocalVue()
@@ -9,7 +9,7 @@ localVue.use(Vuex)
 describe('HomePage.vue', () => {
   let store
   beforeEach(() => {
-    store = MockStore.createNewStore()
+    store = {...OriginStore}
   })
 
   it('should render correct contents', () => {
