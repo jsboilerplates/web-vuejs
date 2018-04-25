@@ -3,6 +3,11 @@ notifications:
     on_success: never
     on_failure: always
 
+sudo: required
+
+services:
+  - docker
+
 language: node_js
 node_js:
   - 8
