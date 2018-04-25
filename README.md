@@ -6,7 +6,7 @@
 - VueJS 2, Vue Router 3, Vuex 3
 - Unit Test with Jest and Vue Test Utils
 - ES6, ESLint
-- CI with Travis
+- CI with Travis, Docker Build
 
 ## Installation
 
@@ -36,6 +36,20 @@ npm run dev
 # build for production with minification
 npm run build
 
+```
+
+## Docker support
+
+Build docker image
+
+```
+bash Dockerbuild.sh
+```
+
+Run docker container
+
+```
+docker run -d --name webvuejs -p 8000:8000 jsboilerplates/web-vuejs
 ```
 
 ## Contributing

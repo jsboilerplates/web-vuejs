@@ -1,0 +1,13 @@
+
+localhost:8000
+
+root dist
+push
+browse
+ext    .html
+log    ./access.log
+gzip
+rewrite {
+  if    {path} not_match ^\/0.0.0.0
+  to    {path} {path}/ /?_url={uri}
+}

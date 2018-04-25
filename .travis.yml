@@ -21,13 +21,16 @@ script:
 
 after_success:
   - npm run build
+  - bash Dockerbuild.sh
 
 deploy:
-  local-dir: dist
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
-  fqdn: jsboilerplate-webvuejs.aikaka.net
+  - provider: pages
+    local-dir: dist
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    fqdn: jsboilerplate-webvuejs.aikaka.net
+  - provider: script
+    script: bash Dockerpush.sh
   on:
     branch: master
