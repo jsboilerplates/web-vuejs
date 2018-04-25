@@ -29,8 +29,8 @@ after_success:
   - bash Dockerbuild.sh
 
 deploy:
-  provider: pages
   local-dir: dist
+  provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
