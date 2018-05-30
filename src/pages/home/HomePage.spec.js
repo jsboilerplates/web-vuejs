@@ -1,7 +1,7 @@
 import Vuex from 'vuex'
 import { shallow, createLocalVue } from '@vue/test-utils'
 import OriginStore from '@/store'
-import HomePage from '@/pages/HomePage'
+import HomePage from './HomePage'
 
 const localVue = createLocalVue()
 localVue.use(Vuex)

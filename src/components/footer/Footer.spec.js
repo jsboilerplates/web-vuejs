@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import Navbar from '@/components/Navbar'
+import Footer from './Footer'
 
-describe('Navbar.vue', () => {
+describe('Footer.vue', () => {
   it('should render correct contents', () => {
-    const Constructor = Vue.extend(Navbar)
+    const Constructor = Vue.extend(Footer)
     const vm = new Constructor().$mount()
     expect(vm.$el.querySelector('h1').textContent)
-      .toEqual('Navbar')
+      .toEqual('Footer')
   })
 })

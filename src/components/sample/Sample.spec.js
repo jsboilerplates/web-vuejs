@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Sample from '@/components/Sample'
+import Sample from './Sample'
 
 describe('Sample.vue', () => {
   it('should render correct contents', () => {

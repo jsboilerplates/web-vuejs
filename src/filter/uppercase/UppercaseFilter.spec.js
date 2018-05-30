@@ -1,6 +1,6 @@
-import FilterUppercase from '@/filter/filter-uppercase'
+import FilterUppercase from './UppercaseFilter'
 
-describe('filter-uppercase.js', () => {
+describe('UppercaseFilter.js', () => {
   it('should render uppercase content', () => {
     let input = 'sample'
     let result = FilterUppercase(input)

@@ -1,5 +1,5 @@
-import uppercase from './filter-uppercase'
-import limit from './filter-limit'
+import uppercase from './uppercase/UppercaseFilter'
+import limit from './limit/LimitFilter'
 
 export default {
   install (Vue) {

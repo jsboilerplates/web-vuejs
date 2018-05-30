@@ -1,6 +1,6 @@
-import FilterLimit from '@/filter/filter-limit'
+import FilterLimit from './LimitFilter'
 
-describe('filter-limit.js', () => {
+describe('LimitFilter.js', () => {
   it('should render limit content', () => {
     let input = 'sample'
     let result = FilterLimit()
