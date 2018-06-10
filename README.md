@@ -1,6 +1,8 @@
 # Boilerplate for VueJS Web App
 [![Build Status](https://travis-ci.org/jsboilerplates/web-vuejs.svg?branch=master)](https://travis-ci.org/jsboilerplates/web-vuejs)
 [![codecov](https://codecov.io/gh/jsboilerplates/web-vuejs/branch/master/graph/badge.svg)](https://codecov.io/gh/jsboilerplates/web-vuejs)
+[![dependencies Status](https://david-dm.org/jsboilerplates/web-vuejs/status.svg)](https://david-dm.org/jsboilerplates/web-vuejs)
+[![devDependencies Status](https://david-dm.org/jsboilerplates/web-vuejs/dev-status.svg)](https://david-dm.org/jsboilerplates/web-vuejs?type=dev)
 [![](https://images.microbadger.com/badges/image/jsboilerplates/web-vuejs.svg)](https://microbadger.com/images/jsboilerplates/web-vuejs)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsboilerplates/web-vuejs/blob/master/LICENSE)
 
